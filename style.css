@@ -3,6 +3,9 @@ h1{
 font-family: 'Cutive', sans-serif;
 }
 
+body{
+  background-color: lavender;
+}
 
 #aboutmepage{
   width: 100%;
