@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Cutive');
+h1{
+font-family: 'Cutive', sans-serif;
+}
+
+
+#aboutmepage{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#profilePic{
+  border-radius: 10%;
+  max-width: 250px;
+}
+
+#home-screen-navbox{
+  width: 100%;
+  margin: 25% auto;
+  max-width: 800px;
+
+
+}
+#aboutme-logo{
+  transition-duration: 1s;
+}
+#aboutme-logo:hover{
+  transform: translateY(-5em) translateX(-5em) scale(1.5);
+}
+#aboutme-logo:active{
+}
+#coding-logo{
+  transition-duration: 1s;
+}
+#coding-logo:hover{
+  transform: translateY(5em) translateX(-5em) scale(1.5);
+}
+#coding-logo:active{
+}
+#audio-logo{
+  transition-duration: 1s;
+}
+#audio-logo:hover{
+  transform: translateY(-5em) translateX(5em) scale(1.5);
+}
+
+#visual-logo{
+  transition-duration: 1s;
+}
+#visual-logo:hover{
+  transform: translateY(5em) translateX(5em) scale(1.5);
+}
+#visual-logo:active{
+}
+
+#byp-logo{
+  max-width: 250px;
+  border-radius: 15px 30px;
+}
+#byp-logo{
+  transition-duration: 1s;
+}
+#byp-logo:hover{
+  transform: translateX(-1em);
+
+}
+
+#visualContent{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#backButton{
+  text-align: right;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-right: 15%;
+}
+a.home{
+  color: black;
+}
+a.home:hover{
+  color: grey;
+}
+div.headers{
+  margin-top: 10%;
+}
+
+.aboutmecols{
+  font-family: 'Alegreya', sans;
+  font-size: 1.1em;
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: lightgrey;
+  background-blend-mode: exclusion;
+  border: solid lightgrey;
+  border-right-width: 2px;
+  background: rgb(204, 204, 204);
+
+  background: rgba(204, 204, 204, 0.5);
+  text-align: center;
+  border-radius: 15px 30px;
+}
+
+.amHeading{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+ .contactMeForm{
+   padding-top: 1em;
+ }
+label.cform{
+  text-align: left;
+}
+
+div.visualRows{
+  max-width: 87%;
+  background-color: lightgrey;
+  background-blend-mode: exclusion;
+  border: solid lightgrey;
+  border-right-width: 2px;
+  background: rgb(204, 204, 204);
+
+  background: rgba(204, 204, 204, 0.5);
+  text-align: center;
+  border-radius: 15px 30px;
+  margin-bottom: 2em;
+  padding: .5em 1em .1em 1em;
+}
+.vids{
+  border-radius: 15px 30px;
+}
+div.vids{
+  transition-duration: .8s;
+}
+div.vids:hover{
+  transform:  scale(1.1);
+}
