@@ -45,6 +45,7 @@ body{
 }
 #audio-logo:hover{
   transform: translateY(-5em) translateX(5em) scale(1.5);
+  overflow-y: scroll;
 }
 
 #visual-logo{
@@ -140,4 +141,12 @@ div.vids{
 }
 div.vids:hover{
   transform:  scale(1.1);
+}
+
+.heading{
+  position: relative;
+  bottom: -150px;
+  font-size: 75px;
+  margin: auto;
+  text-align: center;
 }
