@@ -1,4 +1,4 @@
-window.scroll(0, 200);
+
 var heading = document.getElementById('heading');
 var audio = document.getElementById('audio-logo');
 var about = document.getElementById('aboutme-logo');
