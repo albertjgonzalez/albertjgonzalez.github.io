@@ -13,7 +13,7 @@ body{
 }
 
 #profilePic{
-  border-radius: 10%;
+  border-radius: 2%;
   max-width: 250px;
 }
 
@@ -97,15 +97,14 @@ div.headers{
   padding-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  background-color: lightgrey;
+  height: 585.97px;
   background-blend-mode: exclusion;
-  border: solid lightgrey;
+  border: solid rgba(179, 117, 204, 0.692);
   border-right-width: 2px;
-  background: rgb(204, 204, 204);
 
   background: rgba(204, 204, 204, 0.5);
   text-align: center;
-  border-radius: 15px 30px;
+  
 }
 
 .amHeading{
@@ -145,8 +144,32 @@ div.vids:hover{
 
 .heading{
   position: relative;
-  bottom: -150px;
+  bottom: -190px;
   font-size: 75px;
   margin: auto;
   text-align: center;
+}
+
+#contactlinks{
+  margin-bottom: -20px;
+}
+
+.btn-primary{
+  background-color: rgba(179, 117, 204, 0.692);
+  border: white;
+
+}
+.btn-primary:hover{
+  background-color:black; 
+  border:  rgba(179, 117, 204, 0.692);
+}
+
+.rollIn{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.rollIn :hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }

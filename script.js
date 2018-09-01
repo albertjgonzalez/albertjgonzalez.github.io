@@ -12,27 +12,31 @@ audio.addEventListener('click' ,function () {
   });
 
 
-  audio.addEventListener("mouseover",function(){
+  audio.addEventListener("mouseenter",function(){
     heading.innerHTML= 'Audio';
   }); 
-  audio.addEventListener("mouseout",function(){
+  audio.addEventListener("mouseleave",function(){
     heading.innerHTML= '';
   }); 
-  about.addEventListener("mouseover",function(){
+  about.addEventListener("mouseenter",function(){
     heading.innerHTML= 'About Me';
   }); 
-  about.addEventListener("mouseout",function(){
+  about.addEventListener("mouseleave",function(){
     heading.innerHTML= '';
   }); 
-  coding.addEventListener("mouseover",function(){
+  coding.addEventListener("mouseenter",function(){
     heading.innerHTML= 'Coding';
   }); 
-  coding.addEventListener("mouseout",function(){
+  coding.addEventListener("mouseleave",function(){
     heading.innerHTML= '';
   }); 
-  visual.addEventListener("mouseover",function(){
+  visual.addEventListener("mouseenter",function(){
     heading.innerHTML= 'Visual';
   }); 
-  visual.addEventListener("mouseout",function(){
+  visual.addEventListener("mousleave",function(){
     heading.innerHTML= '';
   }); 
+
+function newFunction() {
+  return "mouseout";
+}
