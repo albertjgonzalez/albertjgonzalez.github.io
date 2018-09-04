@@ -19,8 +19,7 @@ body{
 
 #home-screen-navbox{
   width: 100%;
-  margin: 5% auto;
-  
+  margin: 25% auto;
   max-width: 800px;
 
 
@@ -29,33 +28,34 @@ body{
   transition-duration: 1s;
 }
 #aboutme-logo:hover{
-  transform:scale(1.4);
+  transform: translateY(-5em) translateX(-5em) scale(1.5);
 }
-
+#aboutme-logo:active{
+}
 #coding-logo{
   transition-duration: 1s;
 }
 #coding-logo:hover{
-  transform:scale(1.4);
+  transform: translateY(5em) translateX(-5em) scale(1.5);
 }
-
-
+#coding-logo:active{
+}
 #audio-logo{
   transition-duration: 1s;
 }
 #audio-logo:hover{
-  transform:scale(1.4);
-  
+  transform: translateY(-5em) translateX(5em) scale(1.5);
+  overflow-y: scroll;
 }
 
 #visual-logo{
-  
   transition-duration: 1s;
 }
 #visual-logo:hover{
-  transform:scale(1.4);
+  transform: translateY(5em) translateX(5em) scale(1.5);
 }
-
+#visual-logo:active{
+}
 
 #byp-logo{
   max-width: 250px;
@@ -71,18 +71,10 @@ body{
 
 #visualContent{
   text-align: center;
+  margin-top: 10%;
   margin-left: 10%;
-  display: none;
 }
-.homeButtons{
-  background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-}
+
 #backButton{
   text-align: right;
   margin-top: 1em;
@@ -113,10 +105,6 @@ div.headers{
   background: rgba(204, 204, 204, 0.5);
   text-align: center;
   
-}
-
-.col-md-3{
-  margin-bottom: 20px;
 }
 
 .amHeading{
@@ -156,11 +144,10 @@ div.vids:hover{
 
 .heading{
   position: relative;
-  padding-top: 2%;
+  bottom: -190px;
   font-size: 75px;
   margin: auto;
   text-align: center;
-  visibility: hidden;
 }
 
 #contactlinks{
