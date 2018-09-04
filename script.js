@@ -4,6 +4,8 @@
   var about = document.getElementById('aboutme-logo');
   var coding = document.getElementById('coding-logo');
   var visual = document.getElementById('visual-logo');
+  var logos = document.getElementsByClassName('spinlinks')
+  var aboutmebody = document.getElementById('aboutMe-body')
   
   
   
@@ -40,4 +42,7 @@
       heading.style.visibility = 'hidden';
     }); 
   
- 
+    $('spinlinks').hover( function(){
+      console.log('hello');
+    });
+   
