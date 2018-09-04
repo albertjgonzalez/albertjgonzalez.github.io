@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Cutive');
+h1{
+font-family: 'Cutive', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+#aboutmepage{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#profilePic{
+  border-radius: 2%;
+  max-width: 250px;
+}
+
+#home-screen-navbox{
+  width: 100%;
+  margin: 5% auto;
+  
+  max-width: 800px;
+
+
+}
+#aboutme-logo{
+  transition-duration: 1s;
+}
+#aboutme-logo:hover{
+  transform:scale(1.4);
+}
+
+#coding-logo{
+  transition-duration: 1s;
+}
+#coding-logo:hover{
+  transform:scale(1.4);
+}
+
+
+#audio-logo{
+  transition-duration: 1s;
+}
+#audio-logo:hover{
+  transform:scale(1.4);
+  
+}
+
+#visual-logo{
+  
+  transition-duration: 1s;
+}
+#visual-logo:hover{
+  transform:scale(1.4);
+}
+
+
+#byp-logo{
+  max-width: 250px;
+  border-radius: 15px 30px;
+}
+#byp-logo{
+  transition-duration: 1s;
+}
+#byp-logo:hover{
+  transform: translateX(-1em);
+
+}
+
+#visualContent{
+  text-align: center;
+  margin-left: 10%;
+  display: none;
+}
+.homeButtons{
+  background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+#backButton{
+  text-align: right;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-right: 15%;
+}
+a.home{
+  color: black;
+}
+a.home:hover{
+  color: grey;
+}
+div.headers{
+  margin-top: 10%;
+}
+
+.aboutmecols{
+  font-family: 'Alegreya', sans;
+  font-size: 1.1em;
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 585.97px;
+  background-blend-mode: exclusion;
+  border: solid rgba(179, 117, 204, 0.692);
+  border-right-width: 2px;
+
+  background: rgba(204, 204, 204, 0.5);
+  text-align: center;
+  
+}
+
+.col-md-3{
+  margin-bottom: 20px;
+}
+
+.amHeading{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+ .contactMeForm{
+   padding-top: 1em;
+ }
+label.cform{
+  text-align: left;
+}
+
+div.visualRows{
+  max-width: 87%;
+  background-color: lightgrey;
+  background-blend-mode: exclusion;
+  border: solid lightgrey;
+  border-right-width: 2px;
+  background: rgb(204, 204, 204);
+
+  background: rgba(204, 204, 204, 0.5);
+  text-align: center;
+  border-radius: 15px 30px;
+  margin-bottom: 2em;
+  padding: .5em 1em .1em 1em;
+}
+.vids{
+  border-radius: 15px 30px;
+}
+div.vids{
+  transition-duration: .8s;
+}
+div.vids:hover{
+  transform:  scale(1.1);
+}
+
+.heading{
+  position: relative;
+  padding-top: 2%;
+  font-size: 75px;
+  margin: auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+#contactlinks{
+  margin-bottom: -20px;
+}
+
+.btn-primary{
+  margin: auto;
+  display: block;
+  background-color: rgba(179, 117, 204, 0.692);
+  border: white;
+
+}
+.btn-primary:hover{
+  background-color:black; 
+  border:  rgba(179, 117, 204, 0.692);
+}
+
+.rollIn{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.rollIn :hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
